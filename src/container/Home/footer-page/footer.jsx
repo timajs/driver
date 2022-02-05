@@ -8,9 +8,9 @@ function Footer() {
        <div className="container footer-block">
            <div className="footer-logo">
                 {/* <image src="vector.png" alt="" className="img"/> */}
-                <h3 className="footer-name">In Driver</h3>
-                <p className="footer-text">Автошкола</p>
-                <p className="avto-text">2022, Автошкола “Ин драйвер”</p>
+                <h3 className="footer-name">Инструктор</h3>
+                <p className="footer-text">по вождению</p>
+                <p className="avto-text">2022, Автошкола “Форсаж”</p>
                 <p className="avto-text">Политика конфиденциальности</p>
            </div>
            <div className="contacts-block">
