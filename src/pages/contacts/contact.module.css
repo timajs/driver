@@ -1,0 +1,31 @@
+.contact{
+    background: #cdeecd;
+    padding: 50px 0;
+}
+.commant{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 15%;
+}
+.map{
+    width: 407px;
+    height: 407px;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #424141;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    grid-gap: 5px;
+}
+.text{
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    color: #424141;
+}
