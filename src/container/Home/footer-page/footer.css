@@ -24,6 +24,9 @@ body{
     justify-content: space-between;
     padding-top: 40px;
 }
+.footer-logo{
+    padding-left: 5px;
+}
 .footer-name{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -50,6 +53,10 @@ body{
     margin-bottom: 40px;
     color: #277F27;
 }
+.avto-text{
+    padding: 0px;
+    margin: 0px;
+}
 .contact-text{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -63,14 +70,23 @@ body{
 }
 .contacts-block p {
     text-align: center;
-    padding-right: 65px;
+}
+.social-block{
+    padding-right: 40px;
 }
 .social-logo{
     padding-top: 80px;
+    text-transform: uppercase;
 }
 .social-logo::after{
-    content: url(../../../components/image/Group.png);
+    content: url(../../../components/image/WhatsApp.png);
     position: relative;
-    left: 14px;
+    left: 54px;
+    top: 8px;
+}
+.social-logo::before{
+    content: url(../../../components/image/instagram.png);
+    position: relative;
+    left: 155px;
     top: 8px;
 }

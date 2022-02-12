@@ -1,0 +1,11 @@
+.general-img{
+    background-image: url(../../components/image/car\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.general-nav-background{
+    background: linear-gradient(180deg, #508650 0%, rgba(24, 48, 24, 0) 100%);
+}
+.center-box{
+    background: linear-gradient(122.5deg, rgba(42, 134, 42, 0.22) -3.28%, rgba(196, 196, 196, 0.12) 160.21%);
+}

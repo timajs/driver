@@ -2,9 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-     <div>
-        О нас
-     </div>
+     <h1>O нас</h1>
   );
 }
 

@@ -10,7 +10,7 @@ function Footer() {
                 {/* <image src="vector.png" alt="" className="img"/> */}
                 <h3 className="footer-name">Инструктор</h3>
                 <p className="footer-text">по вождению</p>
-                <p className="avto-text">2022, Автошкола “Форсаж”</p>
+                <p className="avto-text">2022, Автошкола “ФOРСАЖ”</p>
                 <p className="avto-text">Политика конфиденциальности</p>
            </div>
            <div className="contacts-block">

@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    
 }
 .logo-name{
     margin: 0px;
@@ -42,11 +43,11 @@
     color: rgba(255, 255, 255, 0.7);
 }
 .navbar{
-   padding-top: 20px;
+   padding-top: 35px;
 }
 .nav-menu{
     list-style: none;
-    padding-right: 30px;
+    padding-right: 55px;
 }
 .nav-link{
     font-family: 'Roboto', sans-serif;
@@ -72,7 +73,7 @@
     text-decoration: none;
 }
 .buttons-block{
-    padding-top: 25px;
+    padding-top: 35px;
 }
 .avto-btn{
     width: 135px;
