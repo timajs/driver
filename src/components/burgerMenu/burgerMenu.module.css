@@ -1,0 +1,74 @@
+.paper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    width: 280px;
+    background: white;
+    height: 350px;
+    padding: 8px;
+  }
+.modal{
+    cursor: pointer;
+    text-align: right;
+    font-weight: 600;
+    font-size: 15px;
+}
+.burger span{
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #fff;
+    display: block;
+}
+.burger span:first-child{
+    margin-bottom: 5px;
+}
+.burger span:last-child{
+    margin-top: 5px;
+}
+.burger{
+    display: none;
+}
+.list a{
+    text-decoration: none;
+    list-style: none;
+}
+.list{
+    margin-top: 10px;
+}
+.menu{
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    background: #277F27;
+    padding: 10px 0;
+    text-align: center;
+}
+.menu:hover{
+    background: #CDEECD;
+    color: #277F27;
+}
+@media (max-width: 765px){
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+}
+@media (max-width: 480px){
+    .paper{
+        width: 200px;
+        height: 250px;
+    }
+    .menu{
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+@media (max-width: 600px){
+    .burger span{
+        width: 25px;
+        height: 2px;
+    }
+}

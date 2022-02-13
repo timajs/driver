@@ -1,6 +1,9 @@
 .onlinetest{
     background: #cdeecd;
-    padding: 50px 0;
+    height: 750px;
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 .title{
     font-weight: bold;
@@ -12,6 +15,7 @@
 .test{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .pdd{
     width: 549px;
@@ -25,6 +29,7 @@
     line-height: 18px;
     color: #555353;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .btn{
     margin-top: 20px;
@@ -35,5 +40,19 @@
     text-align: center;
     color: #FFFFFF;
     border: none;
-
+}
+@media screen and (max-width: 700px) {
+    .pdd{
+        width: 280px;
+        height: 250px;
+    }
+    .text{
+        width: auto;
+        height: 80px;
+        padding: 0 15px;
+    }
+    .btn{
+        margin-top: 60px;
+        margin-left: 15px;
+    }
 }

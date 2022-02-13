@@ -26,27 +26,34 @@ function Contacts (){
               <div className={css.right}>
                   <p className={css.title}>Контакты</p>
                   <div className={css.icons}>
-                      <img src="/img/call.svg" alt="" />
+                      <img className={css.call} src="/img/call.svg" alt="" />
                       <p className={css.text}>+7 (495) 181-18-20</p>
                   </div>
                   <div className={css.icons}>
-                      <img src="/img/whatsapp.svg" alt="" />
+                      <img className={css.whatsapp} src="/img/whatsapp.svg" alt="" />
                       <p className={css.text}>+7 (495) 181-18-20</p>
                   </div>
                   <div className={css.icons}>
-                      <img src="/img/gmail.svg" alt="" />
+                      <img className={css.gmail} src="/img/gmail.svg" alt="" />
                       <p className={css.text}>autoschoolKoleso@gmail.com</p>
                   </div>
                   <div className={css.icons}>
-                      <img src="/img/geodata.svg" alt="" />
+                      <img className={css.geodata} src="/img/geodata.svg" alt="" />
                       <p className={css.text}>Москва, ул. Проспект Андропова д.8</p>
                   </div>
                   <div className={css.icons}>
-                      <img src="/img/plan.svg" alt="" />
+                      <img className={css.plan} src="/img/plan.svg" alt="" />
                       <p className={css.text}>ВТ-СБ: с 11:00 до 19:00 <br /> ПН-ВС: выходной</p>
                   </div>
               </div>
-          </div>   
+          </div> 
+          <div className={css.bottom}>
+              <div className={css.footer}>
+                <img className={css.logo__img} src="/img/logofooter.svg" alt="" />
+                <p className={css.name}>ИНСТРУКТОР по вождению</p>
+              </div>
+              <p className={css.footer__info}>2022, Автошкола “ФОРСАЖ” Политика конфиденциальности</p>
+          </div>  
         </div>
     )
 }

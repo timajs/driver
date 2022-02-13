@@ -11,6 +11,9 @@ import Header from './components/header/header';
 import KnowledgeBase from './pages/knowledgeBase/knowledgeBase';
 import Useful from './pages/useful/useful';
 import OnlineTest from './pages/onlineTest/onlineTest';
+import News from './pages/news/news';
+import UsefulInfo from './pages/usefulInfo/usefulInfo';
+import NewsInfo from './pages/newsInfo/newsInfo';
 
 function App() {
   return (
@@ -25,11 +28,20 @@ function App() {
             <Route path="/knowledgeBase">
               <KnowledgeBase/>
             </Route>
+            <Route path="/onlinetest">
+              <OnlineTest/>
+            </Route>
+            <Route path="/news">
+              <News/>
+            </Route>
+            <Route path="/newsInfo">
+              <NewsInfo/>
+            </Route>
             <Route path="/useful">
               <Useful/>
             </Route>
-            <Route path="/onlinetest">
-              <OnlineTest/>
+            <Route path="/info">
+              <UsefulInfo/>
             </Route>
           </Switch>
         </div>

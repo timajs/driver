@@ -1,6 +1,9 @@
 .base{
     background: #cdeecd;
-    padding: 40px 0 145px 0;
+    height: 730px;
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 .title{
     font-weight: bold;
@@ -12,7 +15,8 @@
 .desk{
     display: flex;
     justify-content: space-around;
-    margin-top: 85px;
+    margin-top: 80px;
+    flex-wrap: wrap;
 }
 .autopark{
     width: 400px;
@@ -24,6 +28,7 @@
     font-size: 18px;
     line-height: 14px;
     color: rgba(0, 0, 0, 0.73);
+    text-align: left;
 }
 .text{
     font-weight: normal;
@@ -31,6 +36,7 @@
     line-height: 16px;
     color: rgba(0, 0, 0, 0.73);
     margin-top: 25px;
+    text-align: left;
 }
 .secondText{
     font-weight: normal;
@@ -38,4 +44,15 @@
     line-height: 16px;
     color: rgba(0, 0, 0, 0.73);
     margin-top: 10px;
+    text-align: left;
+}
+@media screen and (max-width: 700px) {
+    .autopark{
+        width: 250px;
+        height: 200px;
+    }
+    .texts{
+        align-items: center;
+        padding: 0 15px;
+    }
 }
