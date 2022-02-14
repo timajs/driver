@@ -13,7 +13,6 @@ import Header from './components/header/Header';
 import OnlainTest from './pages/onlainTest/OnlainTest';
 import PersonalArea from './pages/persolaArea/PersonalArea';
 import MyDate from './pages/myDate/MyDate';
-import Win from './pages/win/Win';
 
 function App() {
   return (
@@ -22,9 +21,6 @@ function App() {
       <Header/>
       <div>
         <Switch>
-        <Route path="/win">
-            <Win/>
-          </Route>
         <Route path="/date">
             <MyDate/>
           </Route>
