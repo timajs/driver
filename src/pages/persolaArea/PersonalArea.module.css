@@ -16,22 +16,6 @@
     display: flex;
     justify-content: space-between;
 }
-.boxs{
-    display: flex;
-    margin-top: 15px;
-}
-.img{
-    border: 1px solid #277F27;
-    padding: 5px;
-    border-radius: 50%;
-}
-.text{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
-    color: #424141;
-    margin-left: 15px;
-}
 .image{
     margin: 25px 0 25px 0;
 }

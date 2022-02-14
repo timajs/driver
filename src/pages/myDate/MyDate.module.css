@@ -22,11 +22,13 @@
     padding-left: 10px;
     width: 365px;
 }
+.inp:hover{
+    border-bottom: 1px solid #424141;
+}
 .container:hover{
     border: 1px solid #1CA638;
     border-radius: 12px;
     padding: 5px;
-    
 }
 .text{
     font-weight: 500;

@@ -12,7 +12,7 @@ export default function Header() {
                 <Link to="/">
                     <div className={css.box}>
                         <img className={css.logo} src="/img/logo.svg" alt="" />
-                        <p className={css.title}>ИНСТРУКТОР <br /> по вождению</p>
+                        <img className={css.log} src="/img/log.svg" alt="" />
                     </div>
                 </Link>
                 <BurgerMenu/>

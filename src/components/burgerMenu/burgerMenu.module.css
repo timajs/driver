@@ -7,7 +7,6 @@
     width: 280px;
     background: white;
     height: 350px;
-    padding: 8px;
   }
 .modal{
     cursor: pointer;
@@ -34,9 +33,6 @@
 .list a{
     text-decoration: none;
     list-style: none;
-}
-.list{
-    margin-top: 10px;
 }
 .menu{
     font-weight: 500;

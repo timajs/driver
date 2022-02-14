@@ -1,29 +1,32 @@
 import React from "react";
-import css from "./PersonalArea.module.css"
+import css from "./PersonalArea.module.css";
+import "./personal.css";
 
 export default function PersonalArea(){
     return(
         <div className={css.color}>
             <h2 className={css.title}>Личный Кабинет</h2>
             <div className={css.box}>
-                <div>
-                    <div className={css.boxs}>
-                        <img className={css.img} src="/img/personal.png" alt="" />
-                        <p className={css.text}>ФИО студента</p>
+                <form>
+                    <div className="box">
+                        <div class="radio">
+                            <input class="radio_input" name="male" type="radio" id="radio1" />
+                            <label class="radio_label" for="radio1">ФИО студента</label>
+                        </div>
+                        <div class="radio">
+                            <input class="radio_input" name="male" type="radio" id="radio1" />
+                            <label class="radio_label" for="radio1">Мои экзамены/ Результаты</label>
+                        </div>
+                        <div class="radio">
+                            <input class="radio_input" name="male" type="radio" id="radio1" />
+                            <label class="radio_label" for="radio1">Расписание уроков</label>
+                        </div>
+                        <div class="radio">
+                            <input class="radio_input" name="male" type="radio" id="radio1" />
+                            <label class="radio_label" for="radio1">Выход</label>
+                        </div>
                     </div>
-                    <div className={css.boxs}>
-                        <img className={css.img} src="/img/personalGreen.svg" alt="" />
-                        <p className={css.text}>Мои экзамены/ Результаты</p>
-                    </div>
-                    <div className={css.boxs}>
-                        <img className={css.img} src="/img/personal.png" alt="" />
-                        <p className={css.text}>Расписание уроков</p>
-                    </div>
-                    <div className={css.boxs}>
-                        <img className={css.img} src="/img/personal.png" alt="" />
-                        <p className={css.text}>Выход</p>
-                    </div>
-                </div>
+                </form>
                 <div className={css.clock}>
                     <p className={css.personal}>Время прохождения</p>
                     <img className={css.image} src="/img/watch.svg" alt="" />
