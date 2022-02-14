@@ -8,7 +8,7 @@ function MainNavBar() {
   
   <header className="general-header">
     <div className='container'>
-    <div className='general-block'>
+       <div className='general-block'>
       <div className="logo-block">
         <h3 className="logo-name">Инструктор</h3>
         <p className="logo-text">по движению</p>

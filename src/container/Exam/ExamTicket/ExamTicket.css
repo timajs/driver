@@ -1,0 +1,56 @@
+.exam-top-block{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+
+}
+.rules-block{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 380px;
+}
+.exam-img{
+    padding: 0px 100px 0px 0px;
+}
+.container-box{
+    width: 600px;
+    margin: 0 auto;
+}
+.exam-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #424141;
+    padding: 40px 0px 20px 0px;
+    margin: 0px;
+}
+.rules-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #424141;
+    margin: 5px;
+}
+.ticket-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;   
+    padding-bottom: 50px; 
+}
+.ticket-number{
+    margin: 40px;
+    width: 40px;
+    height: 40px;
+    background: #328432;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+}

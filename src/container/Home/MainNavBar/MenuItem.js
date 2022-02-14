@@ -5,7 +5,7 @@ export const MenuItems = [
         cName: 'nav-link'
     },
     {
-        title: 'Он Лайн Тест',
+        title: 'Онлайн Тест',
         url: '/test',
         cName: 'nav-link'
     },
