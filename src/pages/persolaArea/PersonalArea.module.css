@@ -1,0 +1,142 @@
+.color{
+    background: #cdeecd;
+    width: 100%;
+    height: 200vh;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #424141;
+    padding-top: 20px;
+}
+.box{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.boxs{
+    display: flex;
+    margin-top: 15px;
+}
+.img{
+    border: 1px solid #277F27;
+    padding: 5px;
+    border-radius: 50%;
+}
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #424141;
+    margin-left: 15px;
+}
+.image{
+    margin: 25px 0 25px 0;
+}
+.clock{
+    text-align: center;
+}
+.personal{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #555353;
+}
+.number{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #278027;
+    width: 128px;
+    height: 49px;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 25px 0 25px 0;
+}
+.week_box{
+    display: flex;
+    border-bottom: 1px solid #277F27;
+    margin: 0 5%;
+    color: white;
+}
+.week_lesson{
+    font-weight: 500;
+    font-size: 18px;
+    background: #278027;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.week{
+    font-weight: 500;
+    font-size: 18px;
+    background: #278027;
+    width: 96px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.week_ls{
+    font-weight: 500;
+    font-size: 18px;
+    background: rgba(39, 127, 39, 0.3);
+    width: 96px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.week_lessons{
+    background: rgba(39, 127, 39, 0.3);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    color: #424141;
+}
+.weeks_ls{
+    font-weight: 500;
+    font-size: 18px;
+    background: white;
+    color: #424141;
+    width: 96px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.weeks{
+    font-weight: 500;
+    font-size: 18px;
+    background: rgba(39, 127, 39, 0.3);
+    color: #424141;
+    width: 96px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+@media(max-width: 700px){
+    .week_lesson{
+        font-size: 15px;
+        width: 200px;
+        height: 40px;
+        padding: 5px;
+    }
+    .week{
+        font-size: 15px;
+        width: 90px;
+        height: 40px;
+        padding: 5px;
+    }
+    .week_ls{
+        font-size: 15px;
+        width: 90px;
+        height: 40px;
+        padding: 5px;
+    }
+}
