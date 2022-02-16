@@ -51,7 +51,7 @@ export default function AboutAs(){
                         <p className={css.tema_car}>Комфортное расписание лекций</p>
                         <div className={css.box_car}>
                             <p className={css.text_car}>Мы подберем удобное <br /> для вас время</p>
-                            <img className={css.img_right} src="/img/calendar.svg" alt="" />
+                            <img className={css.img_car} src="/img/calendar.svg" alt="" />
                         </div>
                     </div>
                     <div>
@@ -65,7 +65,7 @@ export default function AboutAs(){
                         <p className={css.tema_car}>Множество вариантов <br /> обучения</p>
                         <div className={css.box_car}>
                             <p className={css.text_right}>Возможность заниматься как на специальной обучающей машине, так и на своем автоя</p>
-                            <img className={css.img_right} src="/img/raspisanie.svg" alt="" />
+                            <img className={css.img_car} src="/img/raspisanie.svg" alt="" />
                         </div>
                     </div>
                 </div>

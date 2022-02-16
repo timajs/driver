@@ -44,8 +44,10 @@
 .week_box{
     display: flex;
     border-bottom: 1px solid #277F27;
+    width: 900px;
     margin: 0 5%;
     color: white;
+    
 }
 .week_lesson{
     font-weight: 500;
@@ -60,7 +62,7 @@
     font-weight: 500;
     font-size: 18px;
     background: #278027;
-    width: 96px;
+    width: 120px;
     height: 50px;
     text-align: center;
     padding: 10px;
@@ -69,7 +71,7 @@
     font-weight: 500;
     font-size: 18px;
     background: rgba(39, 127, 39, 0.3);
-    width: 96px;
+    width: 120px;
     height: 50px;
     text-align: center;
     padding: 10px;
@@ -80,7 +82,7 @@
     font-size: 18px;
     text-align: center;
     padding: 10px;
-    width: 250px;
+    width: 245px;
     height: 50px;
     color: #424141;
 }
@@ -89,38 +91,65 @@
     font-size: 18px;
     background: white;
     color: #424141;
-    width: 96px;
+    width: 120px;
     height: 50px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .weeks{
     font-weight: 500;
     font-size: 18px;
     background: rgba(39, 127, 39, 0.3);
     color: #424141;
-    width: 96px;
+    width: 120px;
     height: 50px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
-@media(max-width: 700px){
+@media(max-width: 940px){
+    .week_box{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .week_box p {
+        font-size: 14px;
+    }
+}
+@media(max-width: 800px){
+    .week_box{
+        width: 650px;
+    }
     .week_lesson{
-        font-size: 15px;
-        width: 200px;
-        height: 40px;
-        padding: 5px;
+        width: 370px;
     }
-    .week{
-        font-size: 15px;
-        width: 90px;
-        height: 40px;
-        padding: 5px;
+    .week_lessons{
+        width: 340px;
     }
-    .week_ls{
-        font-size: 15px;
-        width: 90px;
-        height: 40px;
-        padding: 5px;
+    .week_box p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 680px){
+    .week_box{
+        width: 500px;
+    }
+    .week_lesson{
+        width: 400px;
+    }
+}
+@media(max-width: 540px){
+    .week_box{
+        width: 400px;
+    }
+    .week_lesson{
+        width: 450px;
+    }
+    .week_box p{
+        font-size: 11px;
+    }
+}
+@media(max-width: 450px){
+    .week_box{
+        width: 300px;
     }
 }

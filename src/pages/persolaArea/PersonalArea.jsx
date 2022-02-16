@@ -10,16 +10,16 @@ export default function PersonalArea(){
                 <form>
                     <div className="box">
                         <div class="radio">
-                            <input class="radio_input" name="male" type="radio" id="radio1" />
-                            <label class="radio_label" for="radio1">ФИО студента</label>
+                            <input className="radio_input" name="male" type="radio" id="radio1" />
+                            <label className="radio_label" for="radio1">ФИО студента</label>
                         </div>
                         <div class="radio">
-                            <input class="radio_input" name="male" type="radio" id="radio1" />
-                            <label class="radio_label" for="radio1">Мои экзамены/ Результаты</label>
+                            <input className="radio_input" name="male" type="radio" id="radio1" />
+                            <label className="radio_label" for="radio1">Мои экзамены/ Результаты</label>
                         </div>
                         <div class="radio">
-                            <input class="radio_input" name="male" type="radio" id="radio1" />
-                            <label class="radio_label" for="radio1">Расписание уроков</label>
+                            <input className="radio_input" name="male" type="radio" id="radio1" />
+                            <label className="radio_label" for="radio1">Расписание уроков</label>
                         </div>
                         <div class="radio">
                             <input class="radio_input" name="male" type="radio" id="radio1" />
@@ -50,12 +50,22 @@ export default function PersonalArea(){
             <div className={css.week_box}>
                 <p className={css.week_lessons}>Вождение- практика</p>
                 <p className={css.weeks_ls}>8.30-11.20</p>
-                <p className={css.weeks}></p>
-                <p className={css.weeks_ls}></p>
                 <p className={css.weeks}>8.30-11.20</p>
-                <p className={css.weeks_ls}></p>
-                <p className={css.weeks}></p>
-                <p className={css.weeks_ls}></p>
+                <p className={css.weeks_ls}>8.30-11.20</p>
+                <p className={css.weeks}>8.30-11.20</p>
+                <p className={css.weeks_ls}>8.30-11.20</p>
+                <p className={css.weeks}>8.30-11.20</p>
+                <p className={css.weeks_ls}>8.30-11.20</p>
+            </div>
+            <div className={css.week_box}>
+                <p className={css.week_lessons}>Вождение- практика</p>
+                <p className={css.weeks_ls}>8.30-11.20</p>
+                <p className={css.weeks}>8.30-11.20</p>
+                <p className={css.weeks_ls}>8.30-11.20</p>
+                <p className={css.weeks}>8.30-11.20</p>
+                <p className={css.weeks_ls}>8.30-11.20</p>
+                <p className={css.weeks}>8.30-11.20</p>
+                <p className={css.weeks_ls}>8.30-11.20</p>
             </div>
         </div>
     );
