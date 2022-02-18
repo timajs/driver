@@ -13,7 +13,6 @@ import PersonalArea from './pages/persolaArea/PersonalArea';
 import MyDate from './pages/myDate/MyDate';
 import Main from './pages/main/Main';
 import AboutUs from './pages/aboutUs/AboutUs';
-import { useState } from "react";
 
 
 function App() {
