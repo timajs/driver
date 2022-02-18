@@ -1,7 +1,7 @@
 import React from "react";
-import css from './aboutAs.module.css';
+import css from './aboutUs.module.css';
 
-export default function AboutAs(){
+export default function AboutUs(){
     return(
         <div className={css.container}>
             <p className={css.title}>Раздел О Нас</p>
@@ -19,27 +19,26 @@ export default function AboutAs(){
             <p className={css.title}>Аргументы в нашу пользу</p>
             <p className={css.tema}>Мы не потребуем дополнительных плат</p>
             <div className={css.boxs_car}>
-                <img className={css.image} src="/img/bigKrug.svg" alt="" />
                 <div className={css.left}>
                     <div>
-                        <p className={css.tema_car}>Экономия времени</p>
-                        <div className={css.box_car}>
-                            <img className={css.img_car} src="/img/clock.svg" alt="" />
-                            <p className={css.text_car}>Обучение длится <br /> 2,5 месяца категория B <br /> 3,5 месяца категория BC</p>
+                        <p className={css.left_title}>Экономия времени</p>
+                        <div className={css.left_box}>
+                            <img className={css.left_img} src="/img/clock.svg" alt="" />
+                            <p className={css.left_text}>Обучение длится <br /> 2,5 месяца категория B <br /> 3,5 месяца категория BC</p>
                         </div>
                     </div>
                     <div>
-                        <p className={css.tema_car}>Возможность выбрать <br /> инструктора</p>
-                        <div className={css.box_cars}>
-                            <img className={css.image_car} src="/img/Frame.svg" alt="" />
-                            <p className={css.text_car}>Суммарный опыт <br /> работы более <br /> 10 лет</p>
+                        <p className={css.left_title}>Возможность выбрать <br /> инструктора</p>
+                        <div className={css.left_boxs}>
+                            <img className={css.left_img} src="/img/strela.svg" alt="" />
+                            <p className={css.left_text}>Суммарный опыт <br /> работы более <br /> 10 лет</p>
                         </div>
                     </div>
                     <div>
-                        <p className={css.tema_car}>Выгодная цена за <br /> обучение</p>
-                        <div className={css.box_car}>
-                            <img className={css.image_car} src="/img/man.svg" alt="" />
-                            <p className={css.text_car}>Обучение с интсруктором, <br /> выпустившим более <br /> 7 тыс учеников </p>
+                        <p className={css.left_title}>Выгодная цена за <br /> обучение</p>
+                        <div className={css.left_box}>
+                            <img className={css.left_img} src="/img/man.svg" alt="" />
+                            <p className={css.left_text}>Обучение длится <br /> 2,5 месяца категория B <br /> 3,5 месяца категория BC</p>
                         </div>
                     </div>
                 </div>
@@ -48,24 +47,24 @@ export default function AboutAs(){
                 </div>
                 <div className={css.right}>
                     <div>
-                        <p className={css.tema_car}>Комфортное расписание лекций</p>
-                        <div className={css.box_car}>
-                            <p className={css.text_car}>Мы подберем удобное <br /> для вас время</p>
-                            <img className={css.img_car} src="/img/calendar.svg" alt="" />
+                        <p className={css.left_title}>Комфортное расписание <br /> лекций</p>
+                        <div className={css.left_box}>
+                            <p className={css.left_text}>Мы подберем удобное <br /> для вас время</p>
+                            <img className={css.left_img} src="/img/calendar.svg" alt="" />
                         </div>
                     </div>
                     <div>
-                        <p className={css.tema_car}>Занятие рядом с домом <br /> или работой </p>
-                        <div className={css.boxs_cars}>
-                            <p className={css.text_right}>Наши площадки рассредоточены по всему городу- Вы будете  тренироваться, где хотите</p>
-                            <img className={css.img_car} src="/img/location.svg" alt="" />
+                        <p className={css.left_title}>Занятие рядом с домом <br /> или работой </p>
+                        <div className={css.right_box}>
+                            <p className={css.left_text}>Наши площадки <br /> рассредоточены по всему <br /> городу- Вы будете тренироваться, где хотите</p>
+                            <img className={css.left_img} src="/img/location.svg" alt="" />
                         </div>
                     </div>
                     <div>
-                        <p className={css.tema_car}>Множество вариантов <br /> обучения</p>
-                        <div className={css.box_car}>
-                            <p className={css.text_right}>Возможность заниматься как на специальной обучающей машине, так и на своем автоя</p>
-                            <img className={css.img_car} src="/img/raspisanie.svg" alt="" />
+                        <p className={css.left_title}>Множество вариантов <br /> обучения</p>
+                        <div className={css.left_box}>
+                            <p className={css.left_text}>Возможность заниматься <br /> как на специальной обучающей <br /> машине, так и на своем авто</p>
+                            <img className={css.left_img} src="/img/raspisanie.svg" alt="" />
                         </div>
                     </div>
                 </div>

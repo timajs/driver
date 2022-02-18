@@ -6,13 +6,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Main from './pages/main/Main';
-import AboutAs from './pages/aboutAs/AboutAs';
 import Contact from './pages/contact/Contact';
 import Header from './components/header/Header';
 import OnlainTest from './pages/onlainTest/OnlainTest';
 import PersonalArea from './pages/persolaArea/PersonalArea';
 import MyDate from './pages/myDate/MyDate';
+import Main from './pages/main/Main';
+import AboutUs from './pages/aboutUs/AboutUs'
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
             <OnlainTest/>
           </Route>
           <Route path="/about">
-            <AboutAs/>
+            <AboutUs/>
           </Route>
           <Route path="/contact">
             <Contact/>

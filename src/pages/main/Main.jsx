@@ -1,9 +1,9 @@
 import React from "react";
-import css from './Main.module.css'
+import css from "./Main.module.css";
 
-export default function Main(){
+export default function Main() {
     return(
-        <div className={css.main}>
+        <div>
             main
         </div>
     );

@@ -28,6 +28,12 @@
     line-height: 14px;
     color: #555353;
 }
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #424141;
+}
 .number{
     font-weight: bold;
     font-size: 18px;
