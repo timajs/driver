@@ -19,6 +19,7 @@ export default function AboutUs(){
             <p className={css.title}>Аргументы в нашу пользу</p>
             <p className={css.tema}>Мы не потребуем дополнительных плат</p>
             <div className={css.boxs_car}>
+                <p className={css.box_about}></p>
                 <div className={css.left}>
                     <div>
                         <p className={css.left_title}>Экономия времени</p>

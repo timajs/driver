@@ -25,12 +25,6 @@
     transform: translate(-50%, -50%);
     z-index: 1;
 }
-.big_krug{
-    background: rgba(6, 130, 51, 0.34);
-    border-radius: 50%;
-    width: 371px;
-    height: 371px;
-}
 .krug{
     position: absolute;
     top: 50%;
@@ -67,6 +61,23 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+}
+.box_about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #00983A;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.big_krug{
+    background: rgba(6, 130, 51, 0.34);
+    border-radius: 50%;
+    width: 371px;
+    height: 371px;
 }
 .center{
     background: white;
@@ -164,6 +175,9 @@
         flex-wrap: wrap;
     }
     .center{
+        display: none;
+    }
+    .box_about{
         display: none;
     }
 }

@@ -36,7 +36,7 @@ export default function Header() {
                     <Link to="/contact">
                         <p className={css.text}>Контакты</p>
                     </Link>
-                    <button className={css.button}><img className={css.share} src="/img/share.svg" alt="" /> Авторизация</button>
+                    <button className={css.button}><img className={css.share} src="/img/share.svg" alt="" />Войти</button>
                 </div>
             </div>
         </div>

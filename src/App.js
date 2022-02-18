@@ -12,9 +12,12 @@ import OnlainTest from './pages/onlainTest/OnlainTest';
 import PersonalArea from './pages/persolaArea/PersonalArea';
 import MyDate from './pages/myDate/MyDate';
 import Main from './pages/main/Main';
-import AboutUs from './pages/aboutUs/AboutUs'
+import AboutUs from './pages/aboutUs/AboutUs';
+import { useState } from "react";
+
 
 function App() {
+ 
   return (
     <div className="App">
       <Router>
@@ -36,7 +39,7 @@ function App() {
           <Route path="/contact">
             <Contact/>
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Main/>
           </Route>
         </Switch>
