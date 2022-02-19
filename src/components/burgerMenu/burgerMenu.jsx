@@ -1,8 +1,12 @@
 import React from 'react';
 import css from './burgerMenu.module.css';
 import {Link} from 'react-router-dom';
+<<<<<<< HEAD
 import Modal from '@material-ui/core/Modal';
 
+=======
+// import Modal from '@material-ui/core/Modal';
+>>>>>>> dev
 
 function BurgerMenu(){
     const [open, setOpen] = React.useState(false);
@@ -27,7 +31,11 @@ function BurgerMenu(){
             >  
             <div className={css.paper}>
                 <div className={css.modal_box}>
+<<<<<<< HEAD
                   <p className={css.modal} onClick={handleClose}>✕</p>
+=======
+                  <p className={css.modal}  onClick={handleClose}>✕</p>
+>>>>>>> dev
                 </div>
                 <div>
                     <ul className={css.list}>
@@ -51,5 +59,8 @@ function BurgerMenu(){
         </div>
     );
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 export default BurgerMenu;

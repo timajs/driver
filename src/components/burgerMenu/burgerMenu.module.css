@@ -7,6 +7,10 @@
     width: 280px;
     background: white;
     height: 350px;
+<<<<<<< HEAD
+=======
+    padding: 8px;
+>>>>>>> dev
   }
 .modal{
     cursor: pointer;
@@ -34,6 +38,12 @@
     text-decoration: none;
     list-style: none;
 }
+<<<<<<< HEAD
+=======
+.list{
+    margin-top: 10px;
+}
+>>>>>>> dev
 .menu{
     font-weight: 500;
     font-size: 15px;
@@ -43,10 +53,16 @@
     text-align: center;
 }
 .menu:hover{
+<<<<<<< HEAD
     background: #cdeecd;
     color: #277F27;
 }
 
+=======
+    background: #CDEECD;
+    color: #277F27;
+}
+>>>>>>> dev
 @media (max-width: 765px){
     .burger{
         display: block;

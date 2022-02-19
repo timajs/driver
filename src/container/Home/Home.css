@@ -1,0 +1,9 @@
+.main-img{
+    background:url(../../components/image/car\ 1.png);
+    height: 900px;
+    background-size: cover;
+  }
+.main-background{
+    background: linear-gradient(180deg, #508650 0%, rgba(24, 48, 24, 0) 100%);
+    padding-top:20px;
+}
