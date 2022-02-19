@@ -2,7 +2,6 @@ import React from 'react';
 import css from './burgerMenu.module.css';
 import {Link} from 'react-router-dom';
 import Modal from '@material-ui/core/Modal';
-
 function BurgerMenu(){
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => {
@@ -26,7 +25,7 @@ function BurgerMenu(){
             >  
             <div className={css.paper}>
                 <div className={css.modal_box}>
-                  <p className={css.modal}  onClick={handleClose}>✕</p>
+                  <p className={css.modal} onClick={handleClose}>✕</p>
                 </div>
                 <div>
                     <ul className={css.list}>

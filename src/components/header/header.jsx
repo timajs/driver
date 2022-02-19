@@ -12,7 +12,7 @@ export default function Header() {
                 <Link to="/">
                     <div className={css.box}>
                         <img className={css.logo} src="/img/logo.svg" alt="" />
-                        <p className={css.title}>ИНСТРУКТОР <br /> по вождению</p>
+                        <img className={css.log} src="/img/log.svg" alt="" />
                     </div>
                 </Link>
                 <BurgerMenu/>
@@ -21,7 +21,7 @@ export default function Header() {
                     <p className={css.line}></p>
                     <Link to="/onlinetest"><p className={css.text}>Онлайн тест</p></Link>
                     <p className={css.line}></p>
-                    <Link to="/"><p className={css.text}>Экзамен</p></Link>
+                    <Link to="/exam"><p className={css.text}>Экзамен</p></Link>
                     <p className={css.line}></p>
                     <Link to="/knowledgeBase"><p className={css.text}>База знаний</p></Link>
                     <p className={css.line}></p>
@@ -30,7 +30,7 @@ export default function Header() {
                     <Link to="/news"><p className={css.text}>Новости </p></Link>
                     <p className={css.line}></p>
                     <Link to="/contacts"><p className={css.text}>Контакты</p></Link>
-                    <button className={css.button}><img className={css.share} src="/img/share.svg" alt="" /> Авторизация</button>
+                    <Link to="/auth"><button className={css.button}><img className={css.share} src="/img/share.svg" alt="" />Войти</button></Link>
                 </div>
             </div>
         </div>

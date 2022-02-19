@@ -8,12 +8,14 @@ import {
 } from "react-router-dom";
 import Contacts from './pages/contacts/contact';
 import Header from './components/header/header';
-import KnowledgeBase from './pages/knowledgeBase/knowledgeBase';
+import KnowledgeBaseInfo from './pages/knowledgeBaseInfo/knowledgeBaseInfo';
 import Useful from './pages/useful/useful';
 import OnlineTest from './pages/onlineTest/onlineTest';
 import News from './pages/news/news';
 import UsefulInfo from './pages/usefulInfo/usefulInfo';
 import NewsInfo from './pages/newsInfo/newsInfo';
+import Auth from './pages/auth/auth';
+import KnowledgeBase from './pages/knowledgeBase/knowledgeBase';
 
 function App() {
   return (
@@ -27,6 +29,9 @@ function App() {
             </Route>
             <Route path="/knowledgeBase">
               <KnowledgeBase/>
+            </Route>
+            <Route path="/knowledgeBaseInfo">
+              <KnowledgeBaseInfo/>
             </Route>
             <Route path="/onlinetest">
               <OnlineTest/>
@@ -42,6 +47,9 @@ function App() {
             </Route>
             <Route path="/info">
               <UsefulInfo/>
+            </Route>
+            <Route path="/auth">
+              <Auth/>
             </Route>
           </Switch>
         </div>
