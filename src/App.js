@@ -9,15 +9,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Contact from './pages/contact/Contact';
-import Header from './components/header/Header';
-import OnlainTest from './pages/onlainTest/OnlainTest';
-import PersonalArea from './pages/persolaArea/PersonalArea';
-import MyDate from './pages/myDate/MyDate';
-import Main from './pages/main/Main';
-import AboutUs from './pages/aboutUs/AboutUs';
-import CommonBase from './pages/commonBase/commonBase';
-import Exam from './pages/exam/exam';
+// import Header from './components/header/Header';
+// import OnlainTest from './pages/onlainTest/OnlainTest';
+// import PersonalArea from './pages/persolaArea/PersonalArea';
+// import MyDate from './pages/myDate/MyDate';
+// import Main from './pages/main/Main';
+// import AboutUs from './pages/aboutUs/AboutUs';
+// import CommonBase from './pages/commonBase/commonBase';
+// import Exam from './pages/exam/exam';
 
 // import Contacts from './pages/contacts/contact';
 // import Header from './components/header/header';
@@ -32,6 +31,8 @@ function App() {
  
   return (
     <div className="App">
+       <MainNavBar/>
+      <Outlet />
       {/* <Router>
       <Header/>
       <div>
@@ -62,10 +63,8 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Router> */}
-      <MainNavBar/>
-      <Outlet />
-      {/* <Router>
+    </Router> */
+      /* <Router>
         <Header/>
         <div>
           <Switch>

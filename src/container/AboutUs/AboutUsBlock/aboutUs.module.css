@@ -1,0 +1,253 @@
+.container{
+    background: #cdeecd;
+    padding: 3% 10%;
+    width: auto;
+    height: 200%;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    color: #424141;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 15px;
+}
+.box{
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.krug{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(6, 130, 51, 0.34);
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    padding-bottom: 15px;
+}
+.box_text{
+    padding: 4%;
+}
+.text{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #555353;
+    padding-top: 20px;
+}
+.text span{
+    color: #383838;
+}
+.tema{
+    font-weight: 600;
+    font-size: 14px;
+    color: #424141;
+    text-align: center;
+}
+.image{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+.boxs_car{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.box_about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #00983A;
+    width: 450px;
+    height: 400px;
+    border-radius: 50%;
+}
+.big_krug{
+    background: rgba(6, 130, 51, 0.34);
+    border-radius: 50%;
+    width: 380px;
+    height: 371px;
+}
+.center{
+    background: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 270px;
+}
+.rule{
+    width: 215px;
+    height: 205px;
+    border: 10px solid #008D36;
+    border-radius: 50%;
+    margin-top: 22px;
+}
+.left_title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #424141;
+    margin-top: 40px;
+    text-align: center;
+}
+.left_box{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 350px;
+    height: 90px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.left_boxs{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 300px;
+    height: 90px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.right_box{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 10px solid #008D36;
+    border-radius: 50px;
+    width: 320px;
+    height: 100px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+    float: right;
+}
+.left_img{
+    background: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.left_text{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #424141;
+    margin: 25px auto;
+}
+@media (max-width: 820px){
+    .title{
+        font-size: 24px;
+    }
+    .img{
+        width: 300px;
+        height: auto;
+    }
+    .big_krug{
+        width: 250px;
+        height: 250px;
+    }
+    .krug{
+        width: 200px;
+        height: 200px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .image{
+        width: 350px;
+    }
+    .tema_car{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .boxs_car{
+        flex-wrap: wrap;
+    }
+    .center{
+        display: none;
+    }
+    .box_about{
+        display: none;
+    }
+}
+@media (max-width: 750px){
+    .boxs{
+        flex-wrap: wrap;
+    }
+    .box{
+        margin: 10px auto;
+    }
+    .text{
+        text-align: center;
+    }
+    .tema_car{
+        font-size: 12px;
+    }
+}
+@media (max-width: 1200px){
+    .center{
+        width: 240px;
+        height: 245px;
+    }
+    .rule{
+        width: 190px;
+        height: auto;
+    }
+    .left_title{
+        font-size: 18px;
+    }
+    .left_box{
+        width: 260px;
+        height: 90px;
+    }
+    .left_boxs{
+        width: 220px;
+        height: 90px;
+    }
+    .right_box{
+        width: 250px;
+        height: 90px;
+    }
+    .left_img{
+        width: 70px;
+        height: 70px;
+    }
+    .left_text{
+        font-size: 11px;
+    }
+}
+@media (max-width: 600px){
+    .left_box{
+        width: 260px;
+        height: 90px;
+    }
+    .left_boxs{
+        width: 260px;
+        height: 90px;
+    }
+    .right_box{
+        width: 260px;
+        height: 90px;
+    }
+}
+@media (max-width: 300px){
+    .img{
+        width: 270px;
+    }
+}

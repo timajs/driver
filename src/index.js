@@ -27,9 +27,9 @@ ReactDOM.render(
   <Route path="/news/info-section" element={<NewsSection/>}></Route>
   <Route path="/poleznoe" element={<Poleznoe/>}></Route>
   <Route path="/poleznoe/poleznoe-section" element={<PoleznoeSection/>}></Route>
+  <Route path="/aboutUs" element={<AboutUs/>}></Route>
+  <Route path="/education" element={<Education/>}></Route>
   <Route path="" element={<App />} >
-    <Route path="/aboutUs" element={<AboutUs/>}></Route>
-    <Route path="/education" element={<Education/>}></Route>
     <Route path="*" element={<div>NOT FOUND</div>  } />
     </Route>
   </Routes>

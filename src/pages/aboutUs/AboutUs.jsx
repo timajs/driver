@@ -1,5 +1,5 @@
 import React from "react";
-import css from './aboutUs.module.css';
+// import css from './aboutUs.module.css';
 
 export default function AboutUs(){
     return(

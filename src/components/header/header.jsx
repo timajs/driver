@@ -1,5 +1,5 @@
 import React from "react";
-import css from './header.module.css';
+import css from './Header.module.css';
 import { Link } from "react-router-dom";
 import BurgerMenu from "../burgerMenu/burgerMenu";
 
@@ -12,25 +12,31 @@ export default function Header() {
                 <Link to="/">
                     <div className={css.box}>
                         <img className={css.logo} src="/img/logo.svg" alt="" />
-                        <p className={css.title}>ИНСТРУКТОР <br /> по вождению</p>
+                        <img className={css.log} src="/img/log.svg" alt="" />
                     </div>
                 </Link>
                 <BurgerMenu/>
                 <div className={css.boxs}>
-                    <Link to="/about"><p className={css.text}>О нас</p></Link>
+                    <Link to="/about">
+                        <p className={css.text}>О нас</p>
+                    </Link>
                     <p className={css.line}></p>
-                    <Link to="/onlinetest"><p className={css.text}>Онлайн тест</p></Link>
+                    <Link to="/test">
+                        <p className={css.text}>Онлайн тест</p>
+                    </Link>
                     <p className={css.line}></p>
-                    <Link to="/"><p className={css.text}>Экзамен</p></Link>
+                    <p className={css.text}>Экзамен</p>
                     <p className={css.line}></p>
-                    <Link to="/knowledgeBase"><p className={css.text}>База знаний</p></Link>
+                    <p className={css.text}>База знаний</p>
                     <p className={css.line}></p>
-                    <Link to="/useful"><p className={css.text}>Полезное</p></Link>
+                    <p className={css.text}>Полезное</p>
                     <p className={css.line}></p>
-                    <Link to="/news"><p className={css.text}>Новости </p></Link>
+                    <p className={css.text}>Новости </p>
                     <p className={css.line}></p>
-                    <Link to="/contacts"><p className={css.text}>Контакты</p></Link>
-                    <button className={css.button}><img className={css.share} src="/img/share.svg" alt="" /> Авторизация</button>
+                    <Link to="/contact">
+                        <p className={css.text}>Контакты</p>
+                    </Link>
+                    <button className={css.button}><img className={css.share} src="/img/share.svg" alt="" />Войти</button>
                 </div>
             </div>
         </div>
