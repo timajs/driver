@@ -1,0 +1,207 @@
+.color{
+    background: #cdeecd;
+    width: 100%;
+    height: 500%;
+}
+.title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #424141;
+    padding: 20px 0;
+}
+.box{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    margin: 25px 0 25px 0;
+}
+.clock{
+    text-align: center;
+}
+.personal{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #555353;
+}
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #424141;
+}
+.number{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #278027;
+    width: 128px;
+    height: 49px;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 25px 0 25px 0;
+}
+.week_box{
+    display: flex;
+    border-bottom: 1px solid #277F27;
+    width: 900px;
+    margin: 0 5%;
+    color: white;
+    
+}
+.week_lesson{
+    font-weight: 500;
+    font-size: 18px;
+    background: #278027;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.week{
+    font-weight: 500;
+    font-size: 18px;
+    background: #278027;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.week_ls{
+    font-weight: 500;
+    font-size: 18px;
+    background: rgba(39, 127, 39, 0.3);
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.week_lessons{
+    background: rgba(39, 127, 39, 0.3);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    width: 245px;
+    height: 50px;
+    color: #424141;
+}
+.weeks_ls{
+    font-weight: 500;
+    font-size: 18px;
+    background: white;
+    color: #424141;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}
+.weeks{
+    font-weight: 500;
+    font-size: 18px;
+    background: rgba(39, 127, 39, 0.3);
+    color: #424141;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}
+@media(max-width: 940px){
+    .week_box{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .week_box p {
+        font-size: 14px;
+    }
+}
+@media(max-width: 800px){
+    .week_box{
+        width: 650px;
+    }
+    .week_lesson{
+        width: 370px;
+    }
+    .week_lessons{
+        width: 340px;
+    }
+    .week_box p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 680px){
+    .week_box{
+        width: 500px;
+    }
+    .week_lesson{
+        width: 400px;
+    }
+}
+@media(max-width: 540px){
+    .week_box{
+        width: 400px;
+    }
+    .week_lesson{
+        width: 450px;
+    }
+    .week_box p{
+        font-size: 11px;
+    }
+}
+@media(max-width: 450px){
+    .week_box{
+        width: 300px;
+    }
+}
+@media(max-width: 480px){
+    .week_box{
+        width: 400px;   
+    }
+}
+@media(max-width: 480px){
+    .week_box{
+        width: 350px;   
+    }
+    .week_lesson{
+        font-size: 9px;
+        width: 300px;
+        height: 40px;
+        padding: 4px;
+    }
+    .week{
+        font-size: 9px;
+        width: 110px;
+        height: 40px;
+        padding: 4px;
+    }
+    .week_ls{
+        font-size: 9px;
+        width: 110px;
+        height: 40px;
+        padding: 4px;
+    }
+    .week_lessons{
+        font-size: 9px;
+        padding: 4px;
+        width: 300px;
+        height: 40px;
+    }
+    .weeks_ls{
+        font-size: 9px;
+        width: 110px;
+        height: 40px;
+        padding: 4px;
+    }
+    .weeks{
+        font-size: 9px;
+        width: 110px;
+        height: 40px;
+        padding: 4px;
+    }
+}

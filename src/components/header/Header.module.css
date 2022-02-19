@@ -1,0 +1,114 @@
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.bunner{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.burger{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 2% 3%;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+.box{
+    display: flex;
+    grid-gap: 15px;
+}
+.text{
+    font-weight: bold;
+    font-size: 14px;
+}
+.line{
+    display: inline-block;
+    width: 0;
+    height: 1em;
+    border-left: 3px solid #FFFFFF;
+    border-radius: 3px;
+}
+.button{
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background: none;
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+.share{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+}
+@media (max-width: 932px){
+    .logo{
+        width: 20px;
+        height: auto;
+    }
+    .log{
+        width: 70px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .share{
+        width: 15px;
+        height: 15px;
+    }
+}
+@media (max-width: 765px){
+        .boxs{
+            display: none;
+        } 
+}
+@media (max-width: 600px){
+    .logo{
+        width: 15px;
+    }
+    .burger{
+        padding: 1% 3%;
+    }
+}
+@media (max-width: 490px){
+    .logo{
+        width: 10px;
+        height: auto;
+    }
+    .log{
+        width: 60px;
+    }
+}
+@media (max-width: 400px){
+    .log{
+        width: 50px;
+    }
+}
