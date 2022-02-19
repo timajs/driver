@@ -13,7 +13,7 @@ import KnowledgeBase from './pages/knowledgeBase/knowledgeBase';
 // import Useful from './pages/useful/useful';
 // import OnlineTest from './pages/onlineTest/onlineTest';
 // import News from './pages/news/news';
-import UsefulInfo from './pages/usefulInfo/usefulInfo';
+// import UsefulInfo from './pages/usefulInfo/usefulInfo';
 // import NewsInfo from './pages/newsInfo/newsInfo';
 
 function App() {
