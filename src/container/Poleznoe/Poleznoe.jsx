@@ -1,9 +1,20 @@
 import React from 'react'
+import GeneralNavBar from '../../components/GeneralNavBar/GeneralNavBar'
+import PoleznoeBlock from './PoleznoeBlock/PoleznoeBlock'
 
 const Poleznoe = () => {
     
   return (
-    <h1>Полезное</h1>
+    <>
+    <div className='general-img'>
+      <div  className='general-nav-background'>
+      <GeneralNavBar/>
+      </div>
+    </div>
+    <div>
+      <PoleznoeBlock/>
+    </div>
+    </>
   );
 }
 

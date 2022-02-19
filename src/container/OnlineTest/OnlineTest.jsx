@@ -1,9 +1,11 @@
 import React from 'react'
 import GeneralNavBar from '../../components/GeneralNavBar/GeneralNavBar'
 import TestBlock from './TestBlock/TestBlock'
+import OnlineTestBlock from './OnlineTestBlock/OnlineTestBlock'
 import'./OnlineTest.css'
 
 const OnlineTest = () =>{
+
     
   return (
     <>
@@ -13,7 +15,7 @@ const OnlineTest = () =>{
       </div>
     </div>
     <div className='center-box'>
-      <TestBlock/>
+      <OnlineTestBlock/>
     </div>
     </>
   );

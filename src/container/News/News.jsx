@@ -1,9 +1,20 @@
 import React from 'react'
+import GeneralNavBar from '../../components/GeneralNavBar/GeneralNavBar'
+import NewsBlock from './NewsBlock/NewsBlock'
 
 const News = () =>{
     
   return (
-    <h1>News</h1>
+    <>
+    <div className='general-img'>
+      <div  className='general-nav-background'>
+      <GeneralNavBar/>
+      </div>
+    </div>
+    <div>
+      <NewsBlock/>
+    </div>
+    </>
   );
 }
 
