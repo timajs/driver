@@ -13,6 +13,8 @@ import PersonalArea from './pages/persolaArea/PersonalArea';
 import MyDate from './pages/myDate/MyDate';
 import Main from './pages/main/Main';
 import AboutUs from './pages/aboutUs/AboutUs';
+import CommonBase from './pages/commonBase/commonBase';
+import Exam from './pages/exam/exam';
 
 
 function App() {
@@ -23,6 +25,12 @@ function App() {
       <Header/>
       <div>
         <Switch>
+        <Route path="/exam">
+            <Exam/>
+          </Route>
+        <Route path="/base">
+            <CommonBase/>
+          </Route>
         <Route path="/date">
             <MyDate/>
           </Route>
