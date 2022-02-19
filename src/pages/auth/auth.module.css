@@ -1,7 +1,7 @@
 .auth{
     background: #cdeecd;
     width: auto;
-    height: 500px;
+    height: 700px;
     padding-top: 15px;
     padding-bottom: 50px;
 }
@@ -12,8 +12,11 @@
     color: #424141;
     text-align: center;
 }
-.command__auth{
-    text-align: center;
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 .inp{
     outline: none;
@@ -34,4 +37,29 @@
     color: white;
     font-size: 15px;
     line-height: 15px;
+}
+.info__icons{
+    width: 30px;
+    height: 30px;
+}
+.information{
+    background: rgb(48, 149, 231);
+    color: #FFFFFF;
+    width: 280px;
+    height: 210px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.call{
+    margin-top: 10px;
+}
+.link__img{
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+}
+.link{
+    color: rgb(43, 43, 202);
+    text-decoration: underline;
+    margin-left: 10px;
 }
