@@ -16,7 +16,7 @@ function Auth (){
                 <button className={css.btn}>Авторизoваться</button>
             </div>
             <div className={css.information}>
-                <p>Если вы хотите авторизоваться, нужно связаться по следующим контактам:</p>
+                <p>Если вы хотите зарегистрироваться, нужно связаться по следующим контактам:</p>
                 <div className={css.call}>
                     <img className={css.link__img} src="/img/whatsapp.svg" alt="" />
                     <a className={css.link} href="https://www.whatsapp.com/?lang=ru/" target="_blank">+996500706958</a>
