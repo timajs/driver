@@ -2,8 +2,15 @@ import React from 'react';
 import { Link } from "react-router-dom"
 import { MenuItems } from "./MenuItem.js";
 import './MainNavBar.css'
+import { useNavigate } from "react-router-dom";
 
 function MainNavBar() {
+  let navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate('./auth')
+  }
+  
   return (
   <header className="header container">
   <div className="logo-block">
@@ -22,7 +29,7 @@ function MainNavBar() {
       </ul>
   </nav>
   <div className="buttons-block">
-      <button className="avto-btn">Авторизация</button>
+      <button className="avto-btn" onClick={handleRedirect}>Авторизация</button>
       <button className="search-btn">Поиск</button>
    </div>
 </header>

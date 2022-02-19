@@ -14,6 +14,8 @@ import Home from './container/Home/Home.jsx'
 import TestPage from './container/OnlineTest/TestPage/TestPage.jsx'
 import NewsSection from './container/News/NewsSection/NewsSection.jsx'
 import PoleznoeSection from './container/Poleznoe/PoleznoeSection/PoleznoeSection.jsx'
+import ExamPassPage from './container/Exam/ExamPassPage/ExamPassPage.jsx'
+import AuthBlock from './container/auth/AuthBlock/AuthBlock.jsx'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -22,6 +24,7 @@ ReactDOM.render(
   <Route path="/test" element={<OnlineTest/>}></Route>
   <Route path="/test/testfor" element={<TestPage/>}></Route>
   <Route path="/exam" element={<Exam/>}></Route>
+  <Route path="/exam/pass" element={<ExamPassPage/>}></Route>
   <Route path="/contacts" element={<Contacts/>}></Route>
   <Route path="/news" element={<News/>}></Route>
   <Route path="/news/info-section" element={<NewsSection/>}></Route>
@@ -29,6 +32,7 @@ ReactDOM.render(
   <Route path="/poleznoe/poleznoe-section" element={<PoleznoeSection/>}></Route>
   <Route path="/aboutUs" element={<AboutUs/>}></Route>
   <Route path="/education" element={<Education/>}></Route>
+  <Route path="/auth" element={<AuthBlock/>}></Route>
   <Route path="" element={<App />} >
     <Route path="*" element={<div>NOT FOUND</div>  } />
     </Route>

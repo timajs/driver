@@ -1,7 +1,15 @@
 import React from 'react';
 import './ExamTicket.css'
+import { useNavigate } from "react-router-dom";
 
 const ExamTicket = () => {
+    let navigate = useNavigate();
+
+
+    const handleRedirect = () => {
+        navigate('./pass')
+      }
+
   return (
   <div>
       <div className='exam-top-block'>
@@ -17,31 +25,31 @@ const ExamTicket = () => {
           </div>
           <div className='container-box'>
           <div className='ticket-box'>
-              <button className='ticket-number'>№1</button>
-              <button className='ticket-number'>№2</button>
-              <button className='ticket-number'>№3</button>
-              <button className='ticket-number'>№4</button>
-              <button className='ticket-number'>№5</button>
-              <button className='ticket-number'>№6</button>
-              <button className='ticket-number'>№7</button>
-              <button className='ticket-number'>№8</button>
-              <button className='ticket-number'>№9</button>
-              <button className='ticket-number'>№10</button>
-              <button className='ticket-number'>№11</button>
-              <button className='ticket-number'>№12</button>
-              <button className='ticket-number'>№13</button>
-              <button className='ticket-number'>№14</button>
-              <button className='ticket-number'>№15</button>
-              <button className='ticket-number'>№16</button>
-              <button className='ticket-number'>№17</button>
-              <button className='ticket-number'>№18</button>
-              <button className='ticket-number'>№19</button>
-              <button className='ticket-number'>№20</button>
-              <button className='ticket-number'>№21</button>
-              <button className='ticket-number'>№22</button>
-              <button className='ticket-number'>№23</button>
-              <button className='ticket-number'>№24</button>
-              <button className='ticket-number'>№25</button>
+              <button className='ticket-number' onClick={handleRedirect}>№1</button>
+              <button className='ticket-number' onClick={handleRedirect}>№2</button>
+              <button className='ticket-number' onClick={handleRedirect}>№3</button>
+              <button className='ticket-number' onClick={handleRedirect}>№4</button>
+              <button className='ticket-number' onClick={handleRedirect}>№5</button>
+              <button className='ticket-number' onClick={handleRedirect}>№6</button>
+              <button className='ticket-number' onClick={handleRedirect}>№7</button>
+              <button className='ticket-number' onClick={handleRedirect}>№8</button>
+              <button className='ticket-number' onClick={handleRedirect}>№9</button>
+              <button className='ticket-number' onClick={handleRedirect}>№10</button>
+              <button className='ticket-number' onClick={handleRedirect}>№11</button>
+              <button className='ticket-number' onClick={handleRedirect}>№12</button>
+              <button className='ticket-number' onClick={handleRedirect}>№13</button>
+              <button className='ticket-number' onClick={handleRedirect}>№14</button>
+              <button className='ticket-number' onClick={handleRedirect}>№15</button>
+              <button className='ticket-number' onClick={handleRedirect}>№16</button>
+              <button className='ticket-number' onClick={handleRedirect}>№17</button>
+              <button className='ticket-number' onClick={handleRedirect}>№18</button>
+              <button className='ticket-number' onClick={handleRedirect}>№19</button>
+              <button className='ticket-number' onClick={handleRedirect}>№20</button>
+              <button className='ticket-number' onClick={handleRedirect}>№21</button>
+              <button className='ticket-number' onClick={handleRedirect}>№22</button>
+              <button className='ticket-number' onClick={handleRedirect}>№23</button>
+              <button className='ticket-number' onClick={handleRedirect}>№24</button>
+              <button className='ticket-number' onClick={handleRedirect}>№25</button>
           </div>
           </div>
   </div>

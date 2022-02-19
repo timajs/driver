@@ -2,14 +2,21 @@ import React from 'react';
 import { Link } from "react-router-dom"
 import { MenuItems } from "./MenuItem.js";
 import './GeneralNavBar.css'
+import { useNavigate } from "react-router-dom";
 
 function MainNavBar() {
+
+  let navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate('/')
+  }
+
   return (
-  
   <header className="general-header">
     <div className='container'>
        <div className='general-block'>
-      <div className="logo-block">
+      <div className="logo-block" onClick={handleRedirect}>
         <h3 className="logo-name">Инструктор</h3>
         <p className="logo-text">по движению</p>
       </div>
