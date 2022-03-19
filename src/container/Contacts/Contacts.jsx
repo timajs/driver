@@ -11,7 +11,7 @@ const Contacts = () => {
       </div>
     </div>
     <div>
-        <ContactsBlock/>
+      <ContactsBlock/>
     </div>
     </>
   )

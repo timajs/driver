@@ -1,0 +1,25 @@
+.drop-menu{
+    max-width: 200px;
+    min-height: 40px;
+    padding: 20px 25px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    color: black;
+    position:absolute;
+    top: 103px;
+    left: 600px;
+}
+.drop-menu.clicked{
+    display: none;
+}
+.drop-link{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    list-style: none;
+}
+.page-drop-link{
+    color: black;
+}

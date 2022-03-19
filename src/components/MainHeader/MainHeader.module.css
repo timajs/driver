@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;  
+}
+.logo_name{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo_name::before{
+    content: url(../../../public/images/Logo.svg);
+    position: relative;
+    top: 37px;
+    right: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.logo_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    margin-left: 42px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.navbar{
+   padding-top: 35px;
+}
+.nav_menu{
+    list-style: none;
+    padding-right: 55px;
+}
+.nav_links{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.nav_links::before{
+    content:' ';
+    border-right: 3px white solid;
+    /* border-radius: 1px; */
+    position: relative;
+    left: -17px;
+    top: 1px;
+    padding-left: 20px;
+
+}
+.page_link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.buttons_block{
+    padding-top: 35px;
+}
+.avto_btn{
+    width: 135px;
+    height: 43px;
+    background-color: transparent; 
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    padding-bottom: 8px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+.avto_btn::before{
+   content: url(../../../public/images/log\ in.svg);
+   width: 20px;
+   height: 20px;
+   position: relative;
+   left: -6px;
+   top: 5px;
+   text-align: center;
+}
+.search_btn{
+    width: 107px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: transparent; 
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    margin: 25px 0px 0px 28px;
+    padding-bottom: 8px;
+}
+.search_btn::before{
+   content: url(../../../public/images/Search.svg);
+   width: 20px;
+   height: 20px;
+   position: relative;
+   left: -8px;
+   top: 5px;
+   text-align: center;
+}

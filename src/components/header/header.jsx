@@ -17,7 +17,7 @@ export default function Header() {
                 </Link>
                 <BurgerMenu/>
                 <div className={css.boxs}>
-                    <Link to="/about">
+                    <Link to="/aboutUs">
                         <p className={css.text}>О нас</p>
                     </Link>
                     <p className={css.line}></p>
@@ -25,15 +25,23 @@ export default function Header() {
                         <p className={css.text}>Онлайн тест</p>
                     </Link>
                     <p className={css.line}></p>
+                    <Link to="/exam">
                     <p className={css.text}>Экзамен</p>
+                    </Link>
                     <p className={css.line}></p>
+                    <Link to="/education">
                     <p className={css.text}>База знаний</p>
+                    </Link>
                     <p className={css.line}></p>
+                    <Link to="/poleznoe">
                     <p className={css.text}>Полезное</p>
+                    </Link>
                     <p className={css.line}></p>
+                    <Link to="/news">
                     <p className={css.text}>Новости </p>
+                    </Link>
                     <p className={css.line}></p>
-                    <Link to="/contact">
+                    <Link to="/contacts">
                         <p className={css.text}>Контакты</p>
                     </Link>
                     <button className={css.button}><img className={css.share} src="/img/share.svg" alt="" />Войти</button>

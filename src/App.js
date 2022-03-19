@@ -1,98 +1,38 @@
-// import './App.css';
-// import React from "react";
-import MainNavBar from './container/Home/MainNavBar/MainNavBar';
-import { Outlet } from 'react-router-dom';
+import React from 'react';
+import {Routes,Route} from "react-router-dom";
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-// import Header from './components/header/Header';
-// import OnlainTest from './pages/onlainTest/OnlainTest';
-// import PersonalArea from './pages/persolaArea/PersonalArea';
-// import MyDate from './pages/myDate/MyDate';
-// import Main from './pages/main/Main';
-// import AboutUs from './pages/aboutUs/AboutUs';
-// import CommonBase from './pages/commonBase/commonBase';
-// import Exam from './pages/exam/exam';
-
-// import Contacts from './pages/contacts/contact';
-// import Header from './components/header/header';
-// import KnowledgeBase from './pages/knowledgeBase/knowledgeBase';
-// import Useful from './pages/useful/useful';
-// import OnlineTest from './pages/onlineTest/onlineTest';
-// import News from './pages/news/news';
-// import UsefulInfo from './pages/usefulInfo/usefulInfo';
-// import NewsInfo from './pages/newsInfo/newsInfo';
+import Main from './pages/main/Main'
+import News from './pages/news/News' 
+import PreTest from './pages/test/PreTest/PreTest'
+import OnlineTest from './pages/test/OnlineTest/OnlineTest';
+import Exam from './pages/exam/Exam'
+import Contacts from './pages/contacts/Contacts'
+import Poleznoe from './pages/poleznoe/Poleznoe'
+import Auth from './pages/Auth/Auth'
+import EduBase from './pages/eduBase/EduBase'
+import AboutUs from './pages/AboutUs/AboutUs'
+import GeneralEdu from './pages/eduBase/EduBaseAll/GeneralEdu'
+import PoleznoeInfo from './pages/poleznoe/PoleznoeInfo/PoleznoeInfo'
+import NewsInfo from './pages/news/NewsInfo/NewsInfo'
 
 function App() {
- 
   return (
-    <div className="App">
-       <MainNavBar/>
-      <Outlet />
-      {/* <Router>
-      <Header/>
-      <div>
-        <Switch>
-        <Route path="/exam">
-            <Exam/>
-          </Route>
-        <Route path="/base">
-            <CommonBase/>
-          </Route>
-        <Route path="/date">
-            <MyDate/>
-          </Route>
-        <Route path="/personal">
-            <PersonalArea/>
-          </Route>
-        <Route path="/test">
-            <OnlainTest/>
-          </Route>
-          <Route path="/about">
-            <AboutUs/>
-          </Route>
-          <Route path="/contact">
-            <Contact/>
-          </Route>
-          <Route exact path="/">
-            <Main/>
-          </Route>
-        </Switch>
-      </div>
-    </Router> */
-      /* <Router>
-        <Header/>
-        <div>
-          <Switch>
-            <Route path="/contacts">
-              <Contacts/>
-            </Route>
-            <Route path="/knowledgeBase">
-              <KnowledgeBase/>
-            </Route>
-            <Route path="/onlinetest">
-              <OnlineTest/>
-            </Route>
-            <Route path="/news">
-              <News/>
-            </Route>
-            <Route path="/newsInfo">
-              <NewsInfo/>
-            </Route>
-            <Route path="/useful">
-              <Useful/>
-            </Route>
-            <Route path="/info">
-              <UsefulInfo/>
-            </Route>
-          </Switch>
-        </div>
-      </Router> */}
-
+    <div>
+      <Routes>
+        <Route  path="/" element={<Main/>}></Route> 
+        <Route path="/news" element={<News/>}></Route>
+        <Route path="/news/newsInfo" element={<NewsInfo/>}></Route>
+        <Route path="/test" element={<PreTest/>}></Route>
+        <Route path="/PassTest" element={<OnlineTest/>}></Route>
+        <Route path="/exam" element={<Exam/>}></Route>
+        <Route path="/contacts" element={<Contacts/>}></Route>
+        <Route path="/poleznoe" element={<Poleznoe/>}></Route>
+        <Route path="/poleznoe/poleznoeInfo" element={<PoleznoeInfo/>}></Route>
+        <Route path="/auth" element={<Auth/>}></Route>
+        <Route path="/education" element={<EduBase/>}></Route>
+        <Route path="/generalEducation" element={<GeneralEdu/>}></Route>
+        <Route path="/aboutUs" element={<AboutUs/>}></Route>
+      </Routes> 
     </div>
   );
 }

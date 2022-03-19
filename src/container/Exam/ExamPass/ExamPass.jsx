@@ -5,8 +5,9 @@ const ExamPage = () => {
   return (
     <div className='test-box container'>
          <h1 className='main-text'>Для прохождения экзамена  
-Вам необходимо выбрать один билет. 
-На прохождение экзамена у Вас 25 минут!</h1>
+            Вам необходимо выбрать один билет. 
+            На прохождение экзамена у Вас 25 минут!
+        </h1>
          <div className='test-blocks'>
              <div className='test-circle'>
                 <div className='circle-one'>

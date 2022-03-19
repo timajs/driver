@@ -24,7 +24,7 @@ function BurgerMenu(){
               onClose={handleClose}
               aria-labelledby="simple-modal-title"
               aria-describedby="simple-modal-description"
-            >  
+            > 
             <div className={css.paper}>
                 <div className={css.modal_box}>
                   <p className={css.modal} onClick={handleClose}>✕</p>
