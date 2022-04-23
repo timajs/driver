@@ -27,7 +27,7 @@ export const contact = [
           id:'cont1',
           gmail: "autoschoolKoleso@gmail.com",
           street: "Москва, ул. Проспект Андропова д.8",
-          workschedule: "ВТ-СБ: с 11:00 до 19:00 ПН-ВС: выходной"
+          workschedule: "ВТ-СБ: с 11:00 до 19:00 ПН-ВС: выходнoй"
         }
     ]
 
@@ -136,27 +136,6 @@ export const questions = [
       },
       {
         id: 5,
-        title: 'Что такое DOM?',
-        answers: [
-          {
-              titles: 'Каскадные таблицы стилей',
-              correct: false
-          },
-          {
-              titles: 'Язык программирования',
-              correct: false
-          },
-          {
-            titles: 'Oбъектная модель документа',
-            correct: true
-          },
-          {
-            titles: 'Структура данных',
-            correct: false
-          }
-        ]
-      },{
-        id: 6,
         title: 'Что такое Bootstrap?',
         answers: [
           {

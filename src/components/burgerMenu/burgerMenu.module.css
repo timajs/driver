@@ -52,10 +52,13 @@
     color: #277F27;
 }
 
-@media (max-width: 765px){
+@media (max-width: 1040px){
     .burger{
         display: block;
         cursor: pointer;
+        position: absolute;
+        right: 10px;
+        width: 50px;
     }
 }
 @media (max-width: 480px){

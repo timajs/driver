@@ -47,3 +47,36 @@
     margin-top: 100px;
     color: #FFFFFF;
 }
+@media (max-width: 1280px){
+    .container{
+        width: 1000px;
+    }
+}
+@media (max-width: 990px){
+    .container{
+        width: 600px;
+    }
+    .centerBlock h1{
+        font-size: 40px;
+        margin: 0px;
+        line-height: 60px;
+    }
+    .centerBlock h2{
+        font-size: 25px;
+        margin: 0px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 620px){
+    .container{
+        width: 300px;
+    }
+    .centerBlock h1{
+        font-size: 30px;
+        margin: 0px;
+    }
+    .centerBlock h2{
+        font-size: 20px;
+        margin: 0px;
+    }
+}

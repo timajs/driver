@@ -1,6 +1,7 @@
 import React from 'react';
 import css from './Exam.module.scss'
 import PageHeader from '../../components/PageHeader/PageHeader'
+import {Link} from 'react-router-dom';
 
 export default function Exam() {
   return (
@@ -15,7 +16,9 @@ export default function Exam() {
         </div>
         <div className={css.ticket__box}>
           <div className={css.exam__btn}>
+            <Link to="/exam/exam-pass">
             <button className={css.ticket__btn}>№1</button>
+            </Link>
             <button className={css.ticket__btn}>№2</button>
             <button className={css.ticket__btn}>№3</button>
             <button className={css.ticket__btn}>№4</button>

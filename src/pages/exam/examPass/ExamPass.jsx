@@ -1,14 +1,13 @@
 import React from 'react'
-import './OnlineTest.css'
-import { useState, useEffect } from 'react';
+import './examPass.css'
+import { useState } from 'react';
 import { questions } from '../../../database/database'
 import PageHeader from '../../../components/PageHeader/PageHeader'
 
-const OnlineTest = () => {
+const examPass = () => {
     const [currenQuestion, setCurrenQuestion] = useState(0)
     const [showScore, setshowScore] = useState(false)
     const [score, setscore] = useState(0)
-    
 
     const AnswerButtonClick = (e, correct) => {
         e.preventDefault()
@@ -27,7 +26,7 @@ const OnlineTest = () => {
             <PageHeader />
             <div className='test-box'>
                 <div className='container'>
-                    <h1 className='first-text'>Онлайн Тест!</h1>
+                    <h1 className='exx-text'>Экзамен!</h1>
                     <div className='test-blocks'>
                         <div className='test-circle'>
                             <div className='circle-one'>
@@ -180,25 +179,4 @@ const OnlineTest = () => {
     );
 }
 
-export default OnlineTest
-
-{/* {questions.map(item => (
-                            (item.answers.map(answerOption => (
-                                <div class="radio-item">
-                                <input type="radio" id="ritema" name="ritem" value="ropt1" className='inpt'/>
-                                <label for="ritema">{answerOption.titles}</label>
-                            </div>
-                            )))))} */}
-
-{/* <div class="radio-item">
-                                   <input type="radio" id="ritem" name="ritem" value="ropt1"/>
-                                   <label for="ritem">1. Запрешен</label>
-                               </div>
-                               <div class="radio-item">
-                                   <input type="radio" id="ritemb" name="ritem" value="ropt2"/>
-                                   <label for="ritemb">2. Разрешен</label>
-                               </div>
-                               <div class="radio-item">
-                                   <input type="radio" id="ritemd" name="ritem" value="ropt3"/>
-                                   <label for="ritemd">3. Запрещен только в конце подъема</label>
-                               </div> */}
+export default examPass

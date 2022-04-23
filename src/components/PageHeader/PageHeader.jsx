@@ -14,7 +14,7 @@ function PageHeader() {
       <div className={css.container}>
         <div className={css.burger}>
           <div className={css.box}>
-            <Link to="/">
+            <Link to="/" className={css.ll}>
               <div className={css.logo_block}>
                 <h3 className={css.logo_name}>Инструктор</h3>
                 <p className={css.logo_text}>по движению</p>

@@ -5,32 +5,64 @@ import { dataNews } from '../../database/database'
 import { useState , useEffect } from 'react';
 import axios from 'axios'
 import {Link} from 'react-router-dom';
+import cors from 'cors';
 
 const News = () => {
     const [itemId, setItemId] = useState('');
     const [news, setNews] = useState([])
-    console.log(itemId)
-    useEffect(() => {
-        // axios.get('http://68.183.2.130:8000/api/news', {
-        //     mode: 'no-cors',
-        //     }).then(resp => {
-        //     console.log(resp)
-        //     setNews(resp.data)
-        // })
+        // const server = express();
+        // server.use(cors());
+    // console.log(itemId)
+    // useEffect(() => {
+    //     axios.get('http://188.166.86.75/api/news/', {
+    //         }).then(resp => {
+    //         console.log(resp)
+    //         setNews(resp.data)
+    //     })
+    //   })
 
-        fetch('http://68.183.2.130:8000/api/useful', {
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*'
-              },
-            method: 'GET',
-            mode: 'no-cors'
-        }).then(res => {
-            console.log(res)
-        })
-    })
+        // fetch('https://restcountries.com/v3.1/all', {
+        //     headers: {
+        //         'Accept': 'application/json',
+        //         'Content-Type': 'application/json',
+        //         'Access-Control-Allow-Origin': '*'
+        //       },
+        //     method: 'GET',
+        //     mode: 'no-cors'
+        // }).then(res => {
+        //     console.log(res)
+        // })
+    const fetchData = () => {
+        return fetch("http://188.166.86.75/test/q/Django/")
+              .then((response) => response.json())
+              .then((data) => console.log(data));}
+
+              useEffect(() => {
+                fetchData();
+                }, []);
     
+    // async function getUser() {
+    //     try {
+    //       const response = await fetch('http://188.166.86.75/api/news/', {
+    //         method: 'GET',
+    //         // mode: 'no-cors',
+    //         headers: {
+    //           accept: 'application/json',
+    //         },
+            
+    //       });
+      
+    //       if (!response.ok) {
+    //         throw new Error(`Error! status: ${response.status}`);
+    //       }
+      
+    //       const result = await response.json();
+    //       return console.log(result);
+    //     } catch (err) {
+    //       console.log(err);
+    //     }
+    //   }
+      
     return (
         <>
             <PageHeader />

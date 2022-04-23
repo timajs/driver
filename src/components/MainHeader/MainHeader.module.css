@@ -5,9 +5,11 @@
     padding: 0px 10px;
 }
 .header{
+    padding-top: 20px;  
+}
+.box{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;  
 }
 .logo_name{
     margin: 0px;
@@ -114,4 +116,50 @@
    left: -8px;
    top: 5px;
    text-align: center;
+}
+@media (max-width: 1280px){
+    .container{
+        width: 1000px;
+    }
+    .nav_links{
+       font-size: 11px;
+       padding-left: 15px;
+    }
+    .avto_btn{
+        width: 100px;
+        height: 35px;
+    }
+}
+@media (max-width: 1040px){
+    .container{
+        width: 900px;
+    }
+
+    .navbar{
+        display: none;
+    } 
+    .avto_btn{
+        display: none;
+    }  
+    .search_btn{
+        display: none;
+    }
+    .burger{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .box{
+        justify-content: center;
+    }
+}
+@media (max-width: 950px){
+    .container{
+        width: 500px;
+    }
+    
+}
+@media (max-width: 570px){
+    .container{
+        width: 300px;
+    }
 }

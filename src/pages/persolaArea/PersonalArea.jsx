@@ -1,8 +1,11 @@
 import React from "react";
 import css from "./PersonalArea.module.css";
+import PageHeader from '../../components/PageHeader/PageHeader'
 
 export default function PersonalArea(){
     return(
+        <>
+        <PageHeader/>
         <div className={css.color}>
             <h2 className={css.title}>Личный Кабинет</h2>
             <div className={css.box}>
@@ -63,5 +66,6 @@ export default function PersonalArea(){
                 <p className={css.weeks_ls}></p>
             </div>
         </div>
+        </>
     );
 }

@@ -14,6 +14,8 @@ import AboutUs from './pages/AboutUs/AboutUs'
 import GeneralEdu from './pages/eduBase/EduBaseAll/GeneralEdu'
 import PoleznoeInfo from './pages/poleznoe/PoleznoeInfo/PoleznoeInfo'
 import NewsInfo from './pages/news/NewsInfo/NewsInfo'
+import PersonalArea from './pages/persolaArea/PersonalArea'
+import ExamPass from './pages/exam/examPass/ExamPass'
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path="/test" element={<PreTest/>}></Route>
         <Route path="/PassTest" element={<OnlineTest/>}></Route>
         <Route path="/exam" element={<Exam/>}></Route>
+        <Route path="/exam/exam-pass" element={<ExamPass/>}></Route>
         <Route path="/contacts" element={<Contacts/>}></Route>
         <Route path="/poleznoe" element={<Poleznoe/>}></Route>
         <Route path="/poleznoe/poleznoeInfo" element={<PoleznoeInfo/>}></Route>
@@ -32,6 +35,7 @@ function App() {
         <Route path="/education" element={<EduBase/>}></Route>
         <Route path="/generalEducation" element={<GeneralEdu/>}></Route>
         <Route path="/aboutUs" element={<AboutUs/>}></Route>
+        <Route path="/personal" element={<PersonalArea/>}></Route>
       </Routes> 
     </div>
   );
